@@ -98,7 +98,7 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding-top: $spacing-unit;
 }
 
 .footer-heading {
@@ -162,7 +162,6 @@
 }
 
 
-
 /**
  * Page content
  */
@@ -172,8 +171,9 @@
 }
 
 .page-heading {
-  @include relative-font-size(2);
+  @include relative-font-size(4);
   text-align: center;
+  color: white;
 }
 
 .post-list-heading {
@@ -244,4 +244,79 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+.btn-2 {
+  width: 300px;
+  height: 200px;
+  justify-content: center;
+  display: inline-block;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  left: 15%; // Move the element to the left by 50% of the container's width
+}
+/* Created by http://grohit.com/  */
+.btn-2 a {
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 6%;
+  color:#ec3750;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+span {
+  position: relative;
+  /* z-index coz when we put bg to before and after this span text will not be visible */
+  z-index: 3;
+}
+
+.btn-2 a:hover::before {
+  transform: scaleY(0);
+}
+
+.btn-2 a:hover::after {
+  transform: scaleX(0);
+}
+
+/* Button 2 styles */
+
+.btn-2 a {
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-2 a:hover {
+  color:#ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-2 a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#ec3750;
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.btn-2 a::after {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ec3750;
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+
+table {
+  color: #1f2d3d;
 }

@@ -1,18 +1,16 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Sobre
+permalink: /sobre/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+O objetivo do Hack Club é ajudar você a se tornar um hacker. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Queremos um espaço em cada escola onde as pessoas estejam fazendo coisas interessantes com programação, todas as semanas.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Aprender a programar é um superpoder: ela o converte de um consumidor para um criador. De repente, os computadores se tornam uma ferramenta de criação.
+
+No Hack Club BJ Centro, todos os estudantes aprendem a programar de uma maneira divertida, inclusiva e divertida.
 
 
-[jekyll-organization]: https://github.com/jekyll
+
