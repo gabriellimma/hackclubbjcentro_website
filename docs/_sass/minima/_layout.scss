@@ -13,6 +13,7 @@
 .site-title {
   margin-top: 10px;
   margin-bottom: 10px;
+
 }
 
 .site-nav {
@@ -33,8 +34,9 @@
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-right: 15px;
     }
+    margin-right: -10px;
   }
 
   @include media-query($on-palm) {
@@ -171,9 +173,15 @@
 }
 
 .page-heading {
-  @include relative-font-size(4);
   text-align: center;
   color: white;
+  font-size: calc(3.0em + 1vmin);
+}
+
+@media only screen and (max-width: 767px) {
+  .page-heading {
+     font-size: 3em;
+  }
 }
 
 .post-list-heading {
@@ -246,6 +254,10 @@
   }
 }
 
+.center {
+  text-align: center;
+}
+
 .btn-2 {
   width: 300px;
   height: 200px;
@@ -254,7 +266,6 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  left: 15%; // Move the element to the left by 50% of the container's width
 }
 /* Created by http://grohit.com/  */
 .btn-2 a {
@@ -313,10 +324,37 @@ span {
   width: 100%;
   height: 100%;
   background-color: #ec3750;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-out;
   transform: scaleX(1);
 }
 
 table {
   color: #1f2d3d;
+}
+
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+  .site-title {width: 30vw}
+  .page-link {font-size: 3.5vw;}
+}
+
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+  #up-button {margin-bottom: -14vh; margin-top: 2vh;}
+  .site-title {width: 40vw}
+  .page-link {font-size: 4.2vw;}
+  .page-heading {font-size: 50px; margin-top: -30px;}
+}
+
+@media screen and (max-width: 350px) {
+  .btn-2 {width: 250px;}
+  span {font-size: 20px;}
+  .page-heading {font-size: 40px;}
+}
+
+
+@media screen and (min-width: 1061px) {
+  .home-content {background-size: 100%;}
 }
