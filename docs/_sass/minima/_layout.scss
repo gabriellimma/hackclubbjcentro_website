@@ -346,6 +346,7 @@ table {
   .site-title {width: 40vw}
   .page-link {font-size: 4.2vw;}
   .page-heading {font-size: 50px; margin-top: -30px;}
+  .home-content {background-size: auto 100%;}
 }
 
 @media screen and (max-width: 350px) {
@@ -354,7 +355,13 @@ table {
   .page-heading {font-size: 40px;}
 }
 
+@media screen and (max-width: 500px) {
+  .home-content {background-position: -400px;}
+}
 
-@media screen and (min-width: 1061px) {
+
+@media screen and (min-width: 1020px) {
   .home {width: 700px;}
+  .home-content {background-size: 100%;}
+  .resizer {height: 100px;}
 }
