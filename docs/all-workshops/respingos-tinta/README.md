@@ -1,7 +1,7 @@
 ---
 title: Respingos de Tinta
 description: Pintura colorida e vibrante em seu navegador com Paper.js
-bg-image: "/all-workshops/respingos-tinta/img/demo.png"
+bg-image: "/all-workshops/respingos-tinta/img/fundo.png"
 permalink: /workshops/respingos-tinta
 order: 1
 
