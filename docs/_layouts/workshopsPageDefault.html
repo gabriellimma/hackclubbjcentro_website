@@ -17,7 +17,7 @@
         {%- for my_page in pages -%}
           {%- if my_page.title and my_page.title != 'Workshops' and my_page.title != 'Sobre'-%}
             <li>
-              <div class="ws-box" style="background-image: url('{{ my_page.bg-image }}');">
+              <div class="ws-box" style="background: url('{{ my_page.bg-image }}') no-repeat top center;">
                 <a href="{{ my_page.url | relative_url }}" class="wslink">
                   <div class="ws-info">
                     <h3>{{ my_page.title | escape }}</h3>
