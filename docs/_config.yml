@@ -21,14 +21,12 @@
 title: Hack Club BJ Centro
 email: hackclubbjcentro@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Você chegou ao site do Hack Club BJ Centro
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/hackclubbjcentro_website" # the subpath of your site, e.g. /blog
+  Você chegou ao site do Hack Club BJ Centro! 
+  O Hack Club é uma rede mundial de clubes de programação
+  e agora possuímos um clube no Bom Jesus Centro.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vitorrv10.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
-  - about.markdown
-  - workshops.md
 # Build settings
 theme: minima
 plugins:

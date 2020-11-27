@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: workshopsPage
 title: Workshops
 permalink: /workshops/
 ---
 
-Testing Workshop page and stuff
+<center>Aprenda a programar com esta coleção de workshops feitos pela comunidade com tutoriais inovadores e ideias diferenciadas.
+</center>

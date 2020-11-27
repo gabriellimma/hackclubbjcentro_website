@@ -1,10 +1,16 @@
 ---
 title: Respingos de Tinta
----
+description: Pintura colorida e vibrante em seu navegador com Paper.js
+bg-image: "/all-workshops/respingos-de-tinta/img/demo.png"
+permalink: /workshops/respingos-de-tinta
+order: 1
 
-| Nome (PT-BR)       | Descrição (PT-BR)                                           | Autor            | Tradutor (PT-BR)|      
-|--------------------|-------------------------------------------------------------|------------------|-----------------|
-| Respingos de Tinta | Pintura colorida e vibrante em seu navegador com Paper.js   | @MatthewStanciu  | @VitorVavolizza |
+---
+<center>Pintura colorida e vibrante em seu navegador com Paper.js</center>  
+<center>Feito por @MatthewStanciu</center>
+<center>Traduzido por @VitorVavolizza</center>
+
+<br />
 
 **Aviso: o workshop involve cores vibrantes e não é recomendado para aqueles com um histórico de epilepsia**
 
@@ -35,11 +41,11 @@ Adicione uma tag de script que importe o Paper.js em algum lugar no `<head>`. Em
 ```
 Vamos rever o que cada atributo desta tag faz:
 
-1. `type="text/paperscript"` diz ao Paper.js que o código no script é o código de Paper.js.
+1. `type="text/paperscript"` diz ao Paper.js que o código no script é código de Paper.js.
 2. `canvas="splatterPaint"` refere-se à identificação do canvas HTML na qual o Paper.js irá operar (ainda não criamos esse canvas, mas o faremos em um segundo).
 3. `src="/script.js "` significa que o conteúdo deste script está localizado em seu arquivo `script.js`.
 
-Lembra-se de quando nos referimos a um canvas chamado `splatterPaint`, que ainda não foi criada? Vamos criar essa tela. No `<body>`, remova a linha que importa o `script.js` e substitua-a por
+Lembra-se de quando nos referimos a um canvas chamado `splatterPaint`, que ainda não foi criado? Vamos criar esse canvas. No `<body>`, remova a linha que importa o `script.js` e substitua-a por
 
 ```html
 <canvas id="splatterPaint"></canvas>
@@ -158,9 +164,9 @@ Nada mal, mas é como se estivessem amassados juntos, não é mesmo? Talvez poss
 
 ![](img/rainbow-colors.jpg)
 
-O `event.count * 3` cria um efeito arco-íris ao definir a tonalidade em cada círculo para o número total de vezes que um círculo foi desenhado multiplicado por 3, o que salta ao redor da roda colorida HSB. E parece ótimo!
+O `event.count * 3` cria um efeito arco-íris ao definir a tonalidade em cada círculo para o número total de vezes que um círculo foi desenhado multiplicado por 3, o que salta ao redor da roda colorida HSB. E fica muito bonito!
 
-Parabéns - agora você pode espalhar círculos coloridos por toda a sua tela! Se você ainda não o fez, abra seu repl em uma nova aba e se entregue a uma tela maior e se divirta.
+Parabéns - agora você pode espalhar círculos coloridos por toda a sua tela! Se você ainda não o fez, abra seu repl em uma nova aba, entregue-se a uma tela maior e divirta-se.
 
 ## Hackeando
 

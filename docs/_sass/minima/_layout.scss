@@ -212,15 +212,19 @@
 /**
  * Posts
  */
+
+ .post {
+   overflow: hidden;
+   margin: 0 auto 0 auto;
+ }
 .post-header {
   margin-bottom: $spacing-unit;
 }
 
 .post-title {
-  @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
-
+  text-align: center;
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
@@ -228,7 +232,8 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
-
+  font-weight: 500;
+  font-size: 20px;
   h2 {
     @include relative-font-size(2);
 
@@ -254,11 +259,25 @@
   }
 }
 
+/**
+About
+**/
+
+#about {
+  text-align: left;
+  font-size: 20px;
+}
+
+#about-title {
+  text-align: left;
+}
+
 .center {
   text-align: center;
 }
 
-.btn-2 {
+.home-btn
+ {
   width: 300px;
   height: 200px;
   justify-content: center;
@@ -267,8 +286,13 @@
   flex-direction: column;
   position: relative;
 }
-/* Created by http://grohit.com/  */
-.btn-2 a {
+
+/**
+Home Buttons
+**/
+
+.home-btn
+ a {
   text-decoration: none;
   border: 2px solid white;
   padding: 6%;
@@ -281,31 +305,33 @@
 
 span {
   position: relative;
-  /* z-index coz when we put bg to before and after this span text will not be visible */
   z-index: 3;
 }
 
-.btn-2 a:hover::before {
+.home-btn
+ a:hover::before {
   transform: scaleY(0);
 }
 
-.btn-2 a:hover::after {
+.home-btn
+ a:hover::after {
   transform: scaleX(0);
 }
 
-/* Button 2 styles */
-
-.btn-2 a {
+.home-btn
+ a {
   color: #ffffff;
   transition: all 0.5s ease-in-out;
 }
 
-.btn-2 a:hover {
+.home-btn
+ a:hover {
   color:#ffffff;
   transition: all 0.5s ease-in-out;
 }
 
-.btn-2 a::before {
+.home-btn
+ a::before {
   content: "";
   position: absolute;
   top: 0;
@@ -317,7 +343,8 @@ span {
   transform: scaleY(1);
 }
 
-.btn-2 a::after {
+.home-btn
+ a::after {
   content: "";
   left: 0;
   top: 0;
@@ -350,7 +377,8 @@ table {
 }
 
 @media screen and (max-width: 350px) {
-  .btn-2 {width: 250px;}
+  .home-btn
+   {width: 250px;}
   span {font-size: 20px;}
   .page-heading {font-size: 40px;}
 }
@@ -364,4 +392,6 @@ table {
   .home {width: 700px;}
   .home-content {background-size: 100%;}
   .resizer {height: 100px;}
+  .post-title  {font-size: 4vw;}
+  .post { width: 800px; font-size: 17px;}
 }
