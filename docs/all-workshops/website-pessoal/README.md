@@ -13,7 +13,7 @@ order: 0
 
 <br />
 
-Prophet Orpheus, [nossa mascote](https://hackclub.com/workshops/orpheus), está aqui para guiá-lo a fazer seu próprio website pessoal.
+Profeta Orfeu, [nossa mascote](https://hackclub.com/workshops/orpheus), está aqui para guiá-lo a fazer seu próprio website pessoal.
 
 Ele ficará parecido com este site:
 
