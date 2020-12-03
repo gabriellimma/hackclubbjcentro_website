@@ -2,14 +2,14 @@
 title: 'Website Pessoal'
 description: 'Faça seu primeiro website do zero'  
 bg-image: "/all-workshops/website-pessoal/img/demo.png"
-permalink: /workshops/website-pessoal
+permalink: /workshops/website-pessoal/
 order: 0
 
 ---
 
 <center>Faça seu primeiro website do zero</center>  
-<center>Feito por @MaxWofford</center>
-<center>Traduzido por @VitorVavolizza</center>
+<center>Feito por <a href="https://github.com/maxwofford">@maxwofford</a></center>
+<center>Traduzido por <a href="https://github.com/vitorvavolizza">@vitorvavolizza</a></center>
 
 <br />
 
