@@ -186,10 +186,10 @@ Lembre-se, você pode utilizar: [keycode.info](https://keycode.info).
 Como a pessoa vai saber a tecla que clicou? Vamos dar uma confirmação visual! Temos cada tecla em um elemento separado, então vamos mudar o fundo da tecla quando ela for atingida. Podemos fazer adicionando esta linha à nossa função `tocarNota()`:
 
 ```javascript
-document.getElementById(nota).style.background = 'aqua'.
+document.getElementById(nota).style.background = 'turquoise'.
 ```
 
-O que isso faz, é obter o elemento com o ID com o nome da variável nota. Se você olhar acima, eu defino o ID de cada `<span>` para ser o mesmo de sua nota correspondente. Ele então define o fundo para ser da cor 'aqua'.
+O que isso faz, é obter o elemento com o ID com o nome da variável nota. Se você olhar acima, eu defino o ID de cada `<span>` para ser o mesmo de sua nota correspondente. Ele então define o fundo para ser da cor 'turquoise'.
 
 Execute o código! O que acontece?
 
