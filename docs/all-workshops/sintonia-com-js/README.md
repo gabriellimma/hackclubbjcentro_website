@@ -9,12 +9,12 @@ order: 2
 ---
 
 <center>Faça um piano no navegador utilizando Tone.js</center>  
-<center>Feito por <a href="https://github.com/sampoder">@sampoder</a></center>
-<center>Traduzido por <a href="https://github.com/vitorvavolizza">@vitorvavolizza</a></center>
+<center>Feito por <a href="https://github.com/sampoder" target="_blank">@sampoder</a></center>
+<center>Traduzido por <a href="https://github.com/vitorvavolizza" target="_blank">@vitorvavolizza</a></center>
 
 <br />
 
-Todos nós já tentamos tocar um piano, pensando que estamos criando um som extraordinário (claro que estamos!). Ok, talvez seja apenas eu. Hoje, pensei que seria legal se criássemos um piano usando HTML & JavaScript tudo com a ajuda de uma grande biblioteca chamada [Tone.js](http://tonejs.github.io/)!
+Todos nós já tentamos tocar um piano, pensando que estamos criando um som extraordinário (claro que estamos!). Ok, talvez seja apenas eu. Hoje, pensei que seria legal se criássemos um piano usando HTML & JavaScript tudo com a ajuda de uma grande biblioteca chamada <a href="http://tonejs.github.io/" target="_blank">Tone.js</a>!
 
 ## Começando
 
@@ -22,7 +22,7 @@ Estaremos escrevendo código no Repl.it hoje. Ele é um editor de código online
 
 Deixe-me apenas explicar rapidamente o código inicial. Você encontrará três arquivos: `index.html`, `style.css` e `script.js`. O arquivo JavaScript está atualmente vazio, por outro lado, o resto dos arquivos foi configurado para criar uma interface de usuário básica.
 
-No topo do arquivo `index.html` referenciamos nossas folhas de estilo e metadados. Para tornar o estilo super fácil, acrescentei também [um arquivo CSS que faz parecer com o estilo do GitHub](https://github.com/sindresorhus/github-markdown-css).
+No topo do arquivo `index.html` referenciamos nossas folhas de estilo e metadados. Para tornar o estilo super fácil, acrescentei também <a href="https://github.com/sindresorhus/github-markdown-css" target="_blank">um arquivo CSS que faz parecer com o estilo do GitHub</a>.
 
 ![](img/piano-inicial.png)
 
@@ -112,7 +112,7 @@ Construindo sobre nossa função anterior, estamos agora obtendo dados do navega
 
 O que este código faz é receber a informação do evento (a tecla que está sendo pressionada) que está acontecendo. Em seguida, ele extrai o código da tecla dessa informação.
 
-Você verá que, ao executar isto, nossa tecla é um número!? Isso ocorre porque cada tecla tem seu próprio código. [keycode.info](https://keycode.info/) é uma ferramenta super útil para ajudá-lo a identificar os códigos para cada tecla.
+Você verá que, ao executar isto, nossa tecla é um número!? Isso ocorre porque cada tecla tem seu próprio código. <a href="https://keycode.info" target="_blank">keycode.info</a> é uma ferramenta super útil para ajudá-lo a identificar os códigos para cada tecla.
 
 <img src="https://cloud-7ownn8t7c.vercel.app/screenshot_2020-09-17_at_7.14.26_pm.png" width="380" alt="teclacode.info's UI">
 
@@ -179,14 +179,14 @@ Agora você pode replicar isto com as outras teclas?
 - <kbd>J</kbd> deve tocar a nota A. (Sim, os pianos começam no C...)
 - <kbd>K</kbd> deve tocar a nota B.
 
-Lembre-se, você pode utilizar: [keycode.info](https://keycode.info).
+Lembre-se, você pode utilizar: <a href="https://keycode.info" target="_blank">keycode.info</a>.
 
 ## Tornando a UI interativa
 
 Como a pessoa vai saber a tecla que clicou? Vamos dar uma confirmação visual! Temos cada tecla em um elemento separado, então vamos mudar o fundo da tecla quando ela for atingida. Podemos fazer adicionando esta linha à nossa função `tocarNota()`:
 
 ```javascript
-document.getElementById(nota).style.background = 'turquoise'.
+document.getElementById(nota).style.background = 'turquoise'
 ```
 
 O que isso faz, é obter o elemento com o ID com o nome da variável nota. Se você olhar acima, eu defino o ID de cada `<span>` para ser o mesmo de sua nota correspondente. Ele então define o fundo para ser da cor 'turquoise'.
