@@ -8,8 +8,8 @@ order: 0
 ---
 
 <center>Faça seu primeiro website do zero</center>  
-<center>Feito por <a href="https://github.com/maxwofford">@maxwofford</a></center>
-<center>Traduzido por <a href="https://github.com/vitorvavolizza">@vitorvavolizza</a></center>
+<center>Feito por <a href="https://github.com/maxwofford" target="_blank">@maxwofford</a></center>
+<center>Traduzido por <a href="https://github.com/vitorvavolizza" target="_blank">@vitorvavolizza</a></center>
 
 <br />
 
@@ -50,7 +50,7 @@ Depois disso, preencha os campos:
 
 Depois de preencher os campos, seu ambiente de codificação será gerado em apenas alguns segundos!
 
-![](img/html_repl.png)
+![](img/html_repl.PNG)
 
 ## Parte II: O arquivo HTML
 
@@ -60,7 +60,7 @@ HTML significa Hypertext Markup Language (Linguagem de marcação de hipertexto)
 
 Você deve ter o arquivo `index.html` aberto, e um monte de texto com símbolos `<` & `>`. Isso é HTML!
 
-![](img/html_repl.png)
+![](img/html_repl.PNG)
 
 O Repl.it nos dá algum código para começar, mas vamos começar do zero. Vá em frente e apague tudo no arquivo `index.html` e então **digite** o seguinte:
 
@@ -167,7 +167,7 @@ Vá em frente e adicione isto em seu `index.html` agora. Eu coloquei minha foto 
 </html>
 ```
 
-![](img/no_css.png)
+![](img/no_css.PNG)
 
 Lembre-se, você precisa dar **Run** em seu programa toda vez que quiser ver seu website atualizado.
 

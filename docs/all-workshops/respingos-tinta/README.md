@@ -7,8 +7,8 @@ order: 1
 
 ---
 <center>Pintura colorida e vibrante em seu navegador com Paper.js</center>  
-<center>Feito por <a href="https://github.com/MatthewStanciu">@MatthewStanciu</a></center>
-<center>Traduzido por <a href="https://github.com/vitorvavolizza">@vitorvavolizza</a></center>
+<center>Feito por <a href="https://github.com/MatthewStanciu" target="_blank" >@MatthewStanciu</a></center>
+<center>Traduzido por <a href="https://github.com/vitorvavolizza" target="_blank" >@vitorvavolizza</a></center>
 
 <br />
 
