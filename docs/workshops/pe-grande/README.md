@@ -23,9 +23,9 @@ Neste workshop, você fará um jogo sobre encontrar o Pé Grande. Ficará mais o
 
 Links para uma demonstração ao vivo e do código final abaixo. Este workshop deve levar cerca de 1 hora.
 
-[**Demonstração ao vivo**](https://pe-grande.hcbjcentro.repl.co/)
+<a href="https://pe-grande.hcbjcentro.repl.co/" target="_blank">**Demonstração ao vivo**</a>
 
-[**Código final**](https://repl.it/@hcbjcentro/pe-grande)
+<a href="https://repl.it/@hcbjcentro/pe-grande" target="_blank">**Código final**</a>
 
 **No caminho, você vai:**
 
@@ -56,7 +56,7 @@ Há rumores de que o habitat natural do Pé Grande é uma floresta no noroeste d
 
 Felizmente para você, nós fizemos a parte difícil de tirá-lo da selva e colocá-lo em cativeiro na Internet, e o Pé Grande pode ser encontrado em seu projeto repl.it :)
 
-Então agora você tem que colocar uma **imagem** dele em seu jogo, como você fez no workshop [Personal Website](.../website_pessoal/). Para adicionar uma imagem, nós usamos:
+Então agora você tem que colocar uma **imagem** dele em seu jogo, como você fez no workshop [Website Pessoal](../website-pessoal/). Para adicionar uma imagem, nós usamos:
 
 ```html
 <img src="[URL]" />
