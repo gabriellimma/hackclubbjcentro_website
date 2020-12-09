@@ -40,7 +40,7 @@ Abra um novo projeto HTML no <a href="https://repl.it/languages/html" target="_b
 
 ### Obter imagens para o jogo
 
-1. Vá para <a href="https://github.com/vitorvavolizza/hackclubbjcentro_website/tree/master/docs/all-workshops/pe-grande/assets" target="_blank"> esse link.</a>
+1. Vá para <a href="https://github.com/vitorvavolizza/hackclubbjcentro_website/tree/master/docs/workshops/pe-grande/assets" target="_blank"> esse link.</a>
 2. Clique em cada imagem, depois clique com o botão direito do mouse e **Salvar Imagem Como** para salvá-la em seu computador
 3. Arraste todas as imagens que você salvou para a barra lateral do repl.it
 
