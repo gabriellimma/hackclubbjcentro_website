@@ -54,9 +54,9 @@ O que precisa estar em um jogo para encontrar o Pé Grande? Bem, ele precisa do 
 
 Há rumores de que o habitat natural do Pé Grande é uma floresta no noroeste do Pacífico. O que acontece se você o tirar de seu habitat natural e colocá-lo em uma tela de computador? Será que ele gritaria? Será que ele rasgaria o computador?
 
-Felizmente para você, nós fizemos a parte difícil de tirá-lo da selva e colocá-lo em cativeiro na Internet, e o Pé Grande pode ser encontrado em seu projeto repl.it :)
+Felizmente para você, nós fizemos a parte difícil de tirá-lo da selva e colocá-lo em cativeiro na Internet, e o Pé Grande pode ser encontrado em seu projeto no repl.it :)
 
-Então agora você tem que colocar uma **imagem** dele em seu jogo, como você fez no workshop [Website Pessoal](../website-pessoal/). Para adicionar uma imagem, nós usamos:
+Então agora você tem que colocar uma **imagem** dele em seu jogo, como você fez no workshop <a href="../website-pessoal/" target="_blank">Website Pessoal</a>. Para adicionar uma imagem, nós usamos:
 
 ```html
 <img src="[URL]" />
@@ -86,15 +86,15 @@ Um jogo precisa de interação para ser um jogo, então vamos exibir uma caixa p
 
 Como você pode fazer isso?
 
-Uma das habilidades mais importantes para se tornar um hacker independente é saber como fazer as coisas no Google quando preso. Então vamos começar dando um Google por "[HTML click evento](https://www.google.com/search?q=html+click+evento)":
+Uma das habilidades mais importantes para se tornar um hacker independente é saber como fazer as coisas no Google quando preso. Então vamos começar dando um Google por <a href="https://www.google.com/search?q=html+click+evento" target="_blank">"HTML click evento"</a>:
 
 ![](img/google_html_handle_click.png)
 
-Clicando no primeiro link, leva você irá para [aqui](http://www.w3schools.com/jsref/event_onclick.asp):
+Clicando no primeiro link, leva você irá para <a href="http://www.w3schools.com/jsref/event_onclick.asp" target="_blank">aqui</a>:
 
 > ![](img/w3schools_onclick.png)
 
-Aha! Parece que sempre que você coloca `onclick="myFunction()"` em uma tag como `button` ou `img`, ele executa o código [**JavaScript**](http://www.w3schools.com/js/) que você coloca nas aspas sempre que essa tag é clicada.
+Aha! Parece que sempre que você coloca `onclick="myFunction()"` em uma tag como `button` ou `img`, ele executa o código <a href="http://www.w3schools.com/js/" target="_blank">**JavaScript** </a>que você coloca nas aspas sempre que essa tag é clicada.
 
 Recapitulando:
 
@@ -102,12 +102,11 @@ Recapitulando:
 - O CSS controla o estilo e o layout
 - O JavaScript controla a funcionalidade e interatividade
 
-Queremos que nosso código JavaScript exiba uma caixa pop-up dizendo que você ganhou. Então agora vamos dar um Google por "[popup JavaScript](https://www.google.com/search?q=popup+javascript)":
+Queremos que nosso código JavaScript exiba uma caixa pop-up dizendo que você ganhou. Então agora vamos dar um Google por "<a href="https://www.google.com/search?q=popup+javascript" target="_blank">popup JavaScript</a>":
 
 > ![](img/google_javascript_popup_box.png)
 
-O primeiro link leva você [aqui](http://www.w3schools.com/js/js_popup.asp):
-
+O primeiro link leva você <a href="http://www.w3schools.com/js/js_popup.asp" target="_blank">aqui:</a>
 > ![](img/w3schools_popup.png)
 
 Parece que quando você executa `alert("Eu sou uma caixa de alerta!");` abre uma caixa pop-up mostrando o texto dentro das aspas. Portanto, se ajeitarmos tudo, nossa tag 'img' deve ficar assim:
@@ -140,7 +139,7 @@ Neste ponto, seu `<img>` deve ter este aspecto:
 />
 ```
 
-Parabéns, você tem um jogo funcionado agora! Vocês já terminaram! Agora você pode ir à [FGL](https://fgl.com) e vender seu jogo a patrocinadores e ganhar milhões de dólares!
+Parabéns, você tem um jogo funcionando agora! Agora você pode ir à <a href="https://fgl.com" target="_blank">FGL</a> e vender seu jogo a patrocinadores e ganhar milhões de dólares!
 
 ## Escondendo o Pé Grande
 
@@ -184,7 +183,7 @@ OK, está funcionando? Se você precisar de ajuda, tente perguntar ao seu vizinh
 
 Vamos caminhar através dos passos de uma maneira de resolver isto.
 
-Google "[HTML position](https://www.google.com/search?q=html+position)".
+Google "<a href="https://www.google.com/search?q=html+position" target="_blank">HTML position</a>".
 
 ![](img/google_html_position.png)
 
@@ -202,6 +201,7 @@ img {
   left: 100px;
   top: 150px;
 }
+```
 
 ### Carregando o Pé Grande Antes do Fundo
 
@@ -230,6 +230,14 @@ function carregarPeGrande() {
 }
 ```
 
+**Não se esqueça de linkar o arquivo `script.js` em seu arquivo HTML!**
+
+Para fazer isso adicione, após sua tag `img` o seguinte:
+
+```html
+<script src="script.js"></script>
+```
+
 O Pé Grande deve agora ser carregado após o fundo. Conseguimos!
 
 Sinta-se à vontade para experimentar os valores `left` e `top` para encontrar um bom lugar para esconder o Pé Grande.
@@ -248,7 +256,7 @@ Agora lembre-se, estamos tentando mover o pé grande aleatoriamente em torno da 
 
 ```js
 function moverPeGrande {
-  var picture = document.getElementById('peGrande')
+  var foto = document.getElementById('peGrande')
 }
 ```
 
@@ -262,7 +270,7 @@ Portanto, como temos dois números para gerar (para `left:` e `top:`), precisamo
 
 ```js
 function moverPeGrande {
-  var picture = document.getElementById('peGrande')
+  var foto = document.getElementById('peGrande')
 
   var x = Math.random() * 600
   var y = Math.random() * 600
@@ -275,18 +283,17 @@ Agora que temos nossos dois números, temos que fazê-los realmente se aplicarem
 
 ```js
 function moverPeGrande {
-  var picture = document.getElementById('peGrande')
+  var foto = document.getElementById('peGrande')
 
   var x = Math.random() * 600
   var y = Math.random() * 600
 
-  picture.style.top = x + 'px'
-  picture.style.left = y + 'px'
-  }
+  foto.style.left = x + 'px'
+  foto.style.top = y + 'px'
 }
 ```
 
-A variável picture buscará o elemento que tem o `id` = `peGrande` e definirá a posição superior e esquerda para os números aleatórios que ela gera.
+A variável foto buscará o elemento que tem o `id` = `peGrande` e definirá a posição superior e esquerda para os números aleatórios que ela gera.
 
 Depois, voltando ao nosso arquivo html. Precisamos fazer com que sempre que ganharmos o jogo e encontrarmos o Pé Grande, a função moverPeGrande será chamada e o moverá para um novo local com base nos dois números que acabamos de gerar.
 
@@ -314,18 +321,18 @@ Então agora, nosso novo `<img>` no arquivo html deve se parecer com isto
 <img id="peGrande" onclick="moverPeGrande()"/>
 ```
 
-E nossa função `moverPeGrande` no scripts.js deve se parecer com isto:
+E nossa função `moverPeGrande` no script.js deve se parecer com isto:
 
 ```js
 function moverPeGrande() {
   alert('Muito bem! Você encontrou o Pé Grande!')
-  var picture = document.getElementById('peGrande')
+  var foto = document.getElementById('peGrande')
 
   var x = Math.random() * 600
   var y = Math.random() * 600
 
-  picture.style.top = x + 'px'
-  picture.style.left = y + 'px'
+  foto.style.top = x + 'px'
+  foto.style.left = y + 'px'
 }
 ```
 Agora vamos tentar. Vá em frente e clique no pé grande.
@@ -348,4 +355,4 @@ Mais importante ainda, ao praticar suas habilidades de Google, você está a cam
 
 ## Hackeando
 
-Agora é a chance de fazer do jogo o seu próprio jogo! Para inspiração, você pode procurar [aqui](http://andrewd.50webs.com/bigfoot) para ver o que é possível.
+Agora é a chance de fazer do jogo o seu próprio jogo! Para inspiração, você pode procurar <a href="http://andrewd.50webs.com/bigfoot" target="_blank">aqui</a> para ver o que é possível.
