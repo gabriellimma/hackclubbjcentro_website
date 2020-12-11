@@ -8,7 +8,7 @@ order: 2
 
 ---
 
-<center>Faça um piano no navegador utilizando Tone.js</center>  
+<center>Jogo simples para encontrar o Pé Grande utilizando HTML, CSS e JS</center>  
 <center>
 Feito por <a href="https://github.com/ad510" target="_blank">@ad510</a>
 e <a href="https://github.com/qmogh" target="_blank">@qmogh</a>
@@ -32,7 +32,7 @@ Links para uma demonstração ao vivo e do código final abaixo. Este workshop d
 - Aprender como fazer a manipulação de eventos e como criar caixas pop-up em JavaScript.
 - Definir uma imagem de fundo para uma página web.
 - Definir diretamente as coordenadas de um elemento.
-- Mais importante ainda, praticar as habiliades de dar um Google para que você possa se tornar um hacker independente.
+- Mais importante ainda, praticar as habilidades de dar um Google para que você possa se tornar um hacker independente.
 
 ## Configurar o projeto
 
@@ -56,7 +56,7 @@ Há rumores de que o habitat natural do Pé Grande é uma floresta no noroeste d
 
 Felizmente para você, nós fizemos a parte difícil de tirá-lo da selva e colocá-lo em cativeiro na Internet, e o Pé Grande pode ser encontrado em seu projeto no repl.it :)
 
-Então agora você tem que colocar uma **imagem** dele em seu jogo, como você fez no workshop <a href="../website-pessoal/" target="_blank">Website Pessoal</a>. Para adicionar uma imagem, nós usamos:
+Então, agora você tem que colocar uma **imagem** dele em seu jogo, como você fez no workshop <a href="../website-pessoal/" target="_blank">Website Pessoal</a>. Para adicionar uma imagem, nós usamos:
 
 ```html
 <img src="[URL]" />
@@ -183,7 +183,7 @@ OK, está funcionando? Se você precisar de ajuda, tente perguntar ao seu vizinh
 
 Vamos caminhar através dos passos de uma maneira de resolver isto.
 
-Google "<a href="https://www.google.com/search?q=html+position" target="_blank">HTML position</a>".
+Pesquise por "<a href="https://www.google.com/search?q=html+position" target="_blank">HTML position</a>".
 
 ![](img/google_html_position.png)
 
@@ -262,7 +262,7 @@ function moverPeGrande {
 
 Isto nos ajudará mais tarde.
 
-Agora veja como posicionamos o pé grande no arquivo css. Temos dois números: A posição do pé grande do topo e sua posição da esquerda. Portanto, esses são os dois números que têm que ser aleatórios para que ele possa se mover. Tente pesquisar no Google e descubra uma maneira de gerar um número aleatório.
+Agora veja como posicionamos o pé grande no arquivo CSS. Temos dois números: A posição do pé grande do topo e sua posição da esquerda. Portanto, esses são os dois números que têm que ser aleatórios para que ele possa se mover. Tente pesquisar no Google e descubra uma maneira de gerar um número aleatório.
 
 Há algumas maneiras diferentes de resolver isto, mas nós pesquisamos no Google "gerar um número aleatório em javascript" e fomos ao primeiro resultado, que nos disse para utilizarmos `Math.random()`
 
