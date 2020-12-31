@@ -4,7 +4,7 @@ title: 'Encontre o Pé Grande'
 description: 'Jogo simples para encontrar o Pé Grande utilizando HTML, CSS e JS'  
 bg-image: "/workshops/pe-grande/img/pe-fundo.png"
 permalink: /workshops/pe-grande/
-order: 2
+order: 3
 
 ---
 

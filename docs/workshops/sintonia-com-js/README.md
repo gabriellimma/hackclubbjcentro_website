@@ -4,7 +4,7 @@ title: 'Sintonia com JS'
 description: 'Faça um piano no navegador utilizando Tone.js'  
 bg-image: "/workshops/sintonia-com-js/img/fundo-piano.png"
 permalink: /workshops/sintonia/
-order: 3
+order: 2
 
 ---
 
