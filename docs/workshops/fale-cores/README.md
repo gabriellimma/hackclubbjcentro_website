@@ -7,7 +7,7 @@ order: 5
 
 ---
 
-<center>Faça seu primeiro website do zero</center>  
+<center>Deixe sua tela colorida com reconhecimento ativo de fala</center>  
 <center>Feito por <a href="https://github.com/lachlanjc" target="_blank">@lachlanjc</a></center>
 <center>Traduzido por <a href="https://github.com/vitorvavolizza" target="_blank">@vitorvavolizza</a></center>
 
