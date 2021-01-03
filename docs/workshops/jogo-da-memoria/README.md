@@ -1,13 +1,13 @@
 ---
 title: 'Jogo da Memória'
-description: 'Crie seu próprio jogo da memória usando JavaScript'  
+description: 'Crie seu próprio jogo da memória utilizando JavaScript'  
 bg-image: "/workshops/jogo-da-memoria/img/memoria.png"
 permalink: /workshops/jogo-da-memoria
-order: 7
+order: 8
 
 ---
 
-<center>Crie seu próprio jogo da memória usando JavaScript</center>  
+<center>Crie seu próprio jogo da memória utilizando JavaScript</center>  
 <center>Feito por <a href="https://github.com/giridhar7632" target="_blank">@giridhar7632</a></center>
 <center>Traduzido por <a href="https://github.com/vitorvavolizza" target="_blank">@vitorvavolizza</a></center>
 
@@ -15,7 +15,7 @@ order: 7
 
 # Jogo da memória
 
-O jogo da memória é um jogo de cartas simples em que você precisa combinar pares virando 2 cartas por vez. Neste workshop, vamos construir um jogo de memória simples usando JavaScript. Dê uma olhada no projeto final e no código.
+O jogo da memória é um jogo de cartas simples em que você precisa combinar pares virando 2 cartas por vez. Neste workshop, vamos construir um jogo de memória simples utilizando JavaScript. Dê uma olhada no projeto final e no código.
 
 ![Projeto Final](img/final.gif)
 

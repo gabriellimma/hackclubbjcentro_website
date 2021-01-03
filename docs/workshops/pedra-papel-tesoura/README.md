@@ -4,7 +4,7 @@ title: 'Pedra Papel Tesoura'
 description: 'Crie um jogo de pedra papel tesoura com Python'  
 bg-image: "/workshops/pedra-papel-tesoura/img/rps.png"
 permalink: /workshops/pedra-papel-tesoura/
-order: 6
+order: 7
 
 ---
 
