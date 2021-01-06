@@ -3,7 +3,7 @@ title: 'Jogo da Memória'
 description: 'Crie seu próprio jogo da memória utilizando JavaScript'  
 bg-image: "/workshops/jogo-da-memoria/img/memoria.png"
 permalink: /workshops/jogo-da-memoria
-order: 8
+order: 5
 
 ---
 

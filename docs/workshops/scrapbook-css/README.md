@@ -3,7 +3,7 @@ title: 'Scrapbook Incrível com CSS'
 description: 'Customize seu scrapbook com CSS'
 bg-image: '/workshops/scrapbook-css/img/scrapbook.png'
 permalink: /workshops/scrapbook-css/
-order: 9
+order: 8
 ---
 
 <center>Customize seu scrapbook com CSS</center>  
