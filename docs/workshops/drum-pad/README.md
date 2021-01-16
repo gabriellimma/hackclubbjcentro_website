@@ -3,7 +3,7 @@ title: 'Drum Pad'
 description: 'Crie um Drum Pad com HTML, CSS e JS'  
 bg-image: "/workshops/drum-pad/img/drumpad.png"
 permalink: /workshops/drum-pad/
-order: 12
+order: 8
 ---
 
 <center>Crie um Drum Pad com HTML, CSS e JS</center>  
@@ -109,7 +109,7 @@ Navegue até o arquivo `style.css` e adicione o seguinte código:
 
 ```css
 body {
-  background-color: #fff;
+  background-color: red;
   height: 100%;
   width: 100%;
   display: flex;

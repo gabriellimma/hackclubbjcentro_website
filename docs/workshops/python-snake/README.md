@@ -3,7 +3,7 @@ title: 'Snake, o jogo da cobrinha'
 description: 'Crie o clássico Snake com Python'  
 bg-image: "/workshops/python-snake/img/snakepy.png"
 permalink: /workshops/python-snake/
-order: 12
+order: 5
 ---
 
 <center>Snake, o jogo da cobrinha</center>  
