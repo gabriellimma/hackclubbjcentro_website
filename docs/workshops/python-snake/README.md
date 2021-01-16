@@ -18,7 +18,7 @@ Snake é um jogo que a maioria de nós jogou naqueles antigos telefones Nokia. �
 
 Você pode verificar e visualizar o código-fonte [aqui](https://repl.it/@hcbjcentro/snakepy).
 
-# Começando
+## Começando
 
 Vamos usar o [repl.it](https://repl.it), um editor de código online gratuito para este projeto. Crie um novo projeto Python acessando [https://repl.it/languages/python3](https://repl.it/languages/python3).
 
