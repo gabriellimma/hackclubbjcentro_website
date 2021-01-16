@@ -283,7 +283,7 @@ Agora você deve conseguir jogar Snake no terminal! Você pode executar o códig
 
 ![Hackeando](https://cloud-adi3v03or.vercel.app/0hacking.gif)
 
-# Hackeando
+## Hackeando
 Agora você tem controle total sobre o código. Vá em frente e experimente-o para ver se consegue encontrar maneiras de torná-lo mais divertido. Aqui estão algumas ideias:
 
 - Adicionar uma opção de jogar novamente: [Demo + Código](https://repl.it/@kyryloorlov/Snake-Game-Try-Again)
