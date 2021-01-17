@@ -8,7 +8,7 @@ O objetivo do [Hack Club](https://hackclub.com/) é ajudar você a se tornar um 
 
 Queremos um espaço em cada escola onde as pessoas estejam fazendo coisas interessantes com programação, **todas as semanas**.
 
-**Aprender a programar** é um **superpoder**: ela te converte de um consumidor de tecnologia para um criador. De repente, os computadores se tornam a sua ferramenta de criação.
+**Aprender a programar** é um **superpoder**: ela te converte de um consumidor para um criador. De repente, os computadores se tornam a sua ferramenta de criação.
 
 A maioria das aulas de programação ensina apenas conceitos - é como tentar aprender carpintaria sem nenhuma madeira. No Hack Club, você aprende a programar inteiramente através da construção de coisas. Você começa sem experiência alguma, constrói e envia um projeto diferente a cada reunião.
 
