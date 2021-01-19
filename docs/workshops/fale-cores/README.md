@@ -3,7 +3,7 @@ title: 'Fale Cores'
 description: 'Deixe sua tela colorida com reconhecimento ativo de fala'  
 bg-image: "/workshops/fale-cores/img/cores.png"
 permalink: /workshops/fale-cores/
-order: 9
+order: 10
 
 ---
 

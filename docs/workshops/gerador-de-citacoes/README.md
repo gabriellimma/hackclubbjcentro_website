@@ -3,7 +3,7 @@ title: 'Gerador de Citações'
 description: 'Crie um gerador de citações aleatórias com React.js'  
 bg-image: "/workshops/gerador-de-citacoes/img/citacoes.png"
 permalink: /workshops/gerador-de-citacoes/
-order: 10
+order: 9
 
 ---
 
