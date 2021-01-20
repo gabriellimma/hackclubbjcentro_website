@@ -6,7 +6,7 @@ permalink: /workshops/app-de-tarefas/
 order: 14
 ---
 
-<center>Crie um app de tarefas full-stack usando React e Firebases</center>  
+<center>Crie um app de tarefas full-stack usando React e Firebase</center>  
 <center>Feito por <a href="https://github.com/giridhar7632" target="_blank">@giridhar7632</a></center>
 <center>Traduzido por <a href="https://github.com/vitorvavolizza" target="_blank">@vitorvavolizza</a></center>
 
