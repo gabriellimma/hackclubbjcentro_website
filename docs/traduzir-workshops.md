@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Traduzir Workshops
-description: 'Ajude a comunidade do HackClub Brasil'
+description: 'Ajude a comunidade do Hack Club Brasil'
 permalink: /traduzir-workshops/
 ---
 
@@ -31,7 +31,7 @@ Vá para seu terminal, crie um diretório novo com `mkdir "nome-do-diretorio"` .
 
 Ele vai demorar um tempo clonando o repositório, depois que o processo estiver acabado, vá para o diretório com `cd hackclubbjcentro_website`. E execute `gem install jekyll -v 3.9.0` para instalar o jekyll e `gem install bundler` para instalar o bundler.
 
-Com o bundler e o jekyll instalados, entre na pasta docs `cd /docs` e execute `bundle install` para instalar todas as dependências.
+Com o bundler e o jekyll instalados, entre na pasta docs com `cd docs` e execute `bundle install` para instalar todas as dependências.
 
 E a partir de agora você está pronto para começar.
 
@@ -100,6 +100,6 @@ Aqui vão algumas regras para a tradução:
 
 Depois que seu workshop estiver pronto para um líder de clube brasileiro usar no clube dele, abra um pull request e ele será analisado para depois ser colocado no site brasileiro do Hack Club.
 
-Beeeem, eu acho que é isso. Em caso de dúvidas, mande uma mensagem no Slack do Hack Club para mim. Sou o [@vitor](https://app.slack.com/client/T0266FRGM/CDJMS683D/user_profile/U018RDU68D9) e você também pode contar com o [@gabriel](https://app.slack.com/client/T0266FRGM/D01KABE85KK/user_profile/U01K3T48ZEG).
+Beeeem, eu acho que é isso. Em caso de dúvidas, mande uma mensagem para nosso time no Slack do Hack Club. Somos o grupo [@brasil](https://app.slack.com/client/T0266FRGM/browse-user-groups/user_groups/S01L1TL2RUY).
 
  :)
